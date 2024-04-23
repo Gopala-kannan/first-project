@@ -1,9 +1,12 @@
 body, h1,h2,p{
-   margin: 0;
+    /* change a font style */
+    margin: 0;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .maindiv{
+    /* set a background */
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -12,11 +15,13 @@ body, h1,h2,p{
     padding-bottom: 500px;
 }
 #logo{
+    /* facebook font-size and color  */
     font-size: 50px;
     color: #0b66ff;
     padding: 10px 2px 12px 8px;
 }
 .form{
+    /* create a form */
     background-color: white;
     width: 430px;
     text-align: center;
