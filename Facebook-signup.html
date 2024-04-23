@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://127.0.0.1:5500/css/facebook-signup/intex.html? -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Facebook-signup_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="sytle.css">
+    
+</head>
+<body>
+    <div class="maindiv">
+        <div class=>
+            <h1 id="logo">facebook</h1>
+            <form>
+                <div class="form">
+                    <div class="heading">
+                        <h2>Create a new account</h2>
+                        <p>It's a quick and easy</p>
+                    </div>
+                    <div class="input-f">
+                        <div class="off">
+                            <input type="text" placeholder="First Name">
+                        </div>
+                        <div class="off">
+                            <input type="text" placeholder="Surname">
+                        </div>
+                        <div class="full">
+                            <input type="number" placeholder="Mobile Number">
+                        </div>
+                        <div class="full">
+                            <input type="password" placeholder="New Password">
+                        </div>
+                        <label>Date of brith</label>
+                        <div class="dob">
+                            <div class="quad-width">
+                                <select>
+                                    <option>8</option>
+                                </select>
+                            </div>
+                            <div class="quad-width">
+                                <select>
+                                    <option>Dec</option>
+                                </select>
+                            </div>
+                            <div class="quad-width">
+                                <select>
+                                    <option>2003</option>
+                                </select>
+                            </div>
+                        
+                    </div>
+                    <label>Gender</label>
+                    <div class="dob">
+                        <div class="quad-width">
+                            <div class="radio-btn">
+                                <label class="radio-label">Male</label>
+                                <input type="radio" class="radio-input">
+                            </div>
+                        </div>
+                        <div class="quad-width">
+                            <div class="radio-btn">
+                                <label class="radio-label">Female</label>
+                                <input type="radio" class="radio-input">
+                            </div>
+                        </div>
+                        <div class="quad-width">
+                            <div class="radio-btn">
+                                <label class="radio-label">Costom</label>
+                                <input type="radio" class="radio-input">
+                            </div>
+                            </div>
+                        </div>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae error doloremque vero porro molestiae vel itaque, ducimus cum et iste nostrum voluptatem maxime assumenda doloribus, eum, minima ab nesciunt dignissimos?<a href="https://www.facebook.com/help/?ref=pf">learn more</a></small>
+                        <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, esse!</small>
+                        <div class="button">
+                            <button>Sign up</button>
+                        </div>
+                        <div class="account">
+                            <a href="https://www.instagram.com/?hl=en">Already link an account</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body>
+
+</html>
