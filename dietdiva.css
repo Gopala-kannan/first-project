@@ -1,0 +1,297 @@
+.studio-div{
+    padding: 25px;
+    background-color:#f5f5f5 ;
+    display: flex;
+}
+.btn-div-1{
+    margin-left: 80%;
+    width: 100px;
+    display: flex;
+    background-color: #6a2bf3;
+    padding: 5 10;
+    border-radius: 5px;
+    border: none;
+}
+.icon{
+    font-size: 30px;
+}
+.icon-1{
+    padding: 8px 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+   
+}
+.dd-div{
+    padding: 25px;
+    display: flex;
+}
+.link-div{
+    margin-left: 50%;
+    align-items: center;
+}
+a{
+    margin:  10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: inherit;
+}
+.form-div{
+    background-color: aliceblue;
+    display: flex;
+}
+.words-div{
+    background-color: aliceblue;
+    width: 100%;
+    margin: 100px;
+    margin-right: 0;
+}
+.box-div-1{
+    padding: 80px 50px 80px 40px;
+    margin-top: 80px;
+    margin-right: 70px;
+    border: solid green;
+}
+
+h1{
+    margin: 0;
+    font-size: 60px;
+}
+.btn-div-2{
+    padding: 10px ;
+    width: 180px;
+    background-color: rgb(105, 187, 69);
+    color: #f5f5f5;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.cooking-main{
+    background-color: rgba(220, 197, 167, 0.699);
+    display: flex;
+}
+.words-cook{ 
+    margin: 150px;
+    margin-left: 80px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.btn-div-3{
+    padding: 12px;
+    font-size: 17px;
+    width: 160px;
+    border: none;
+    border-radius: 20px;
+}
+.img-postion{
+    margin-top: 140px;
+    margin-left: 30px;
+    width: 240px;
+    
+}
+.img-div-1{
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 70px;
+    width: 230px;
+}
+.img-div-2{
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 310px;
+    width: 230px;
+}
+.offers-h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.644);
+}
+.offer-div{
+    background-color: aliceblue;
+}
+.main-offer-div{
+    display: flex;
+}
+.offer-step-2{
+    display: flex;
+}
+.off-div{
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 50px;
+    width: 300px;
+    border: solid;
+    font-size: 30px;
+}
+.off-div-2{
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 40px;
+    padding-bottom: 10px;
+    width: 360px;
+    border: solid;
+    font-size: 30px;
+
+}
+.off-div-3{
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 50px;
+    width: 300px;
+    border: solid;
+    font-size: 30px;
+}
+.form-main-col{
+    padding: 70px;
+    margin-top:50px ;
+    margin-right: 160px;
+    margin-left: 160px;
+    background-color: #68b8c833;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 8px solid green ;
+}
+.h3-1{
+    font-size:25px ;
+}
+.head-div-h1{
+    text-align: center;
+    margin: 50px;
+}
+.h1-div{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.822);
+}
+.img-2{
+    display: flex;
+}
+.box-main-div-1{
+    margin-top: 60px;
+    margin-left: 250px;
+    padding-bottom: 10px;
+    width: 300px;
+    padding-top: 220px;
+    background-image: url("https://studio.openweaver.com/preassets/mediaassets/b39c4e5d615e41c1b3a266e92aef8b45/image/Rectangle 40253.png");
+}
+.font-h3,.font-h3-2{
+    font-size: 30px;
+    margin-left: 20px;
+    color: aliceblue;
+}
+.box-main-div-2{
+    margin-top: 60px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    width: 300px;
+    padding-top: 220px;
+    background-image: url("https://studio.openweaver.com/preassets/mediaassets/b39c4e5d615e41c1b3a266e92aef8b45/image/Rectangle 40254.png");
+}
+.font-h3-1{
+    font-size: 30px;
+    margin-left: 20px;
+    color: aliceblue;
+    margin-top: 60px;
+}
+.box-main-div-3{
+    margin-top: 60px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    width: 300px;
+    padding-top: 220px;
+    background-image: url("https://studio.openweaver.com/preassets/mediaassets/b39c4e5d615e41c1b3a266e92aef8b45/image/Rectangle 40255.png");
+}
+.btn-div-btn-1{
+    margin: 40px;
+    text-align: center;
+}
+.btn-button{
+    background-color: rgb(105, 187, 69);
+    border-radius: 15px;
+    padding: 10px;
+    width: 120px;
+    font-size: 15px;
+    border: none;
+    color: aliceblue;
+}
+.text-div{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.main-set{
+    display: flex;
+}
+.main-words-div{
+    margin-left: 200px;
+    margin-bottom: 40px;
+}
+.equal{
+    margin: 20px;
+}
+.form-div-form{
+    display: flex;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.101);
+}
+.form-color{
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.h1-size{
+    font-size: 50px;
+}
+.input-div-1{
+    margin-top: 30px ;
+}
+.int{
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+::placeholder{
+    font-size: 16px;
+}
+.int-1{
+    width: 90%;
+    height: 130px;
+    border-radius: 8px;
+    border:1px solid green;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+textarea{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.553);
+}
+.btn-but-1{
+    width: 40%;
+    padding: 12px;
+    border-radius: 18px;
+    font-size:16px ;
+    background-color: rgb(105, 187, 69);
+    color: aliceblue;
+    border: none;
+    margin-bottom: 40px;
+}
+.form-color-div-3{
+    width: 50%;
+    margin-top: 130px;
+    margin-left: 60px;
+}
+.equal-img{
+    
+    width: 70%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
