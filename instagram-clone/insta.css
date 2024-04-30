@@ -1,0 +1,79 @@
+body{
+    font-family:'Kaushan Script', sans-serif ;
+}
+.insta{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 500px;
+}
+h1{
+    color: rgba(0, 0, 0, 0.69);
+}
+.hhh{
+    font-size: 50px;
+    color: black;
+    padding:10px ;
+}
+form{
+    background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--k8UmNwES--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/24vtmk35oie7sg05xa0p.png);
+    width: 380px;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px ;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+input{
+    padding:8px ;
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+button{
+    border: 0;
+    background-color: #429aff;
+    color: white;
+    padding: 8px 120px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.divider{
+    font-family:georgia, serif;
+    font-style: normal;
+    display: flex;
+    font-size: medium;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+a{
+    font-family: georgia, serif;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: rgba(0, 60, 255, 0.534);
+}
+.log{
+    font-size: 15px;
+    margin: 30px;
+}
+.form-5{
+    margin: 20px;
+}
+.form-6{
+    margin: 10px;
+}
+.form-7{
+    font-family:georgia, serif ;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 15px;
+    justify-content: center;
+}
+.log-2{
+    font-size: 15px;
+}
