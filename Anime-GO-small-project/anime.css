@@ -244,3 +244,11 @@
 .h3{
     color: white;
 }
+
+svg{
+    color: gray;
+}
+
+svg:hover{
+    color: white;
+}
